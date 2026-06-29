@@ -1,0 +1,32 @@
+# Bygg-mapp
+/build/
+
+# CMake & Kompilering
+.cache/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Binärer och Objektfiler
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE & Editorer
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specifikt
+.DS_Store
+
+# Egna filer
+GG-plan.md
