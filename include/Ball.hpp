@@ -1,4 +1,9 @@
+#pragma once
+#include <SFML/Graphics.hpp>
+#include "Vector2D.hpp"
+
 class Ball {
+public:
     Vector2D position;
     Vector2D velocity;
 
