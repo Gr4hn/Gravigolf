@@ -8,7 +8,7 @@ void Ball::applyForce(Vector2D force) {
 void Ball::update(float deltatime) {
     position = position + (velocity * deltatime);
     velocity = velocity * 0.995f;
-    if (velocity.length() < 0.1f) {
+    if (velocity.length() < 10.0f) {
         velocity = {0.0f, 0.0f};
         isMoving = false;
     }
